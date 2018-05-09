@@ -1,15 +1,217 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title></title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link href="" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>測試</h1>
-    <h2>我叫簡志學</h2>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">選單切換</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Sam Chien</a>
+        </div>
+        <!-- 手機隱藏選單區 -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <!-- 左選單 -->
+            <ul class="nav navbar-nav">
+                <li class=""><a href="#about">關於sam</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#works">作品</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </div>
+        <!-- 手機隱藏選單區結束 -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row kv">
+            <header>
+                <h1>Sam Chien作品集</h1>
+            </header>
+        </div>
+    </div>
+    <section id="about" class="about text-center content">
+        <div class="container">
+            <div class="row">
+                <h2><span class="shadow">關於我</span></h2>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="row me">
+                        <img src="images/me.jpg">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                    <P>個性樂觀向上，平常喜歡閱讀、看電影、打電動和慢跑，當兵養成的慢跑習慣，也成為自己磨練意志力的練習。喜歡挑戰新鮮的事情，利用轉換跑道的空檔期間，挑戰獨自騎腳踏車環島，秉持著決心與毅力並於12天完成目標。</p>
+                    <p>在因緣際會下偶然接觸到前端這方面的資訊，開始自學程式的日子，為了打好基礎，並報名參加資策會的前端工程師養成班訓練，從中學習到的網頁技術，都讓我更覺得程式好玩有趣，而且在解決問題後更有成就感。不僅學習前端技術，UI/UX的課程讓我了解到使用者體驗與介面的重要性，所以在介面的設計上就要多從使用者角度去發想，也藉由個人網站與專題網站來提升實戰經驗。半年課程收穫良多，學習期間也獲得「視覺設計獎」、「最佳RWD」的肯定，未來也規劃精進專業技術，期許自己能像過去六個月一樣，每天不斷進步。</P>
+                    <p>在美麗佳人做網頁設計的這段時間，希望磨練自己的美感與設計能力，主要用photoshop設計layout，之後再進行切版，並且用JQuery套些動畫效果，閒暇之餘也會自己加強javascript，購買線上課程來學習。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills text-center content">
+        <div class="container">
+            <div class="row">
+                <h2 class=""><span class="shadow">技能</span></h2>
+                <div class="col-xs-4 col-sm-4">
+                    <h3>設計</h3>
+                    <ul>
+                        <li>photoshop</li>
+                        <li>illustrator</li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-4">
+                    <h3>前端</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                        <li>AJAX</li>
+                        <li>RWD</li>
+                        <li>SASS</li>
+                        <li>BootStrap</li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-4">
+                    <h3>其他</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>MYSQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="works content">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center"><span class="shadow">作品</span></h2>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2018/02/whoo/" class="" target="_blank">
+                        <img src="images/works-016.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2018/01/clear/" class="" target="_blank">
+                        <img src="images/works-015.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/11/ipsa/" class="" target="_blank">
+                        <img src="images/works-014.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/10/J'adore_L'Or/" class="" target="_blank">
+                        <img src="images/works-013.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+    <a href="" class="" target="_blank">
+                        <img src="images/works-012.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <a href="" class="" target="_blank">
+                        <img src="images/works-011.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+</div> -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/09/shiseido/index.html" class="" target="_blank">
+                        <img src="images/works-010.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/09/EsteeLauder_DW/" class="" target="_blank">
+                        <img src="images/works-009.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/09/Dr.cilabo/" class="" target="_blank">
+                        <img src="images/works-008.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="" class="" target="_blank">
+                        <img src="images/works-007.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div> -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/09/sulwhasoo/" class="" target="_blank">
+                        <img src="images/works-006.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/06/morewater/" class="" target="_blank">
+                        <img src="images/works-005.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/06/ElizabethArden/" class="" target="_blank">
+                        <img src="images/works-004.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/06/freeplus/" class="" target="_blank">
+                        <img src="images/works-003.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="https://www.marieclaire.com.tw/events/2017/05/guerlain/" class="" target="_blank">
+                        <img src="images/works-002.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div>
+                <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="" class="" target="_blank">
+                        <img src="images/works-001.jpg">
+                        <div class="works-btn">read more</div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact text-center content">
+        <div class="container">
+            <div class="row">
+                <h2><span class="shadow">CONTACT</span></h2>
+                <i class="fas fa-envelope-square"></i><a href="mailto:chihhuseh@gmail.com">chihhuseh@gmail.com</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Copyright © 2018 sam.chien All rights reserved
+    </footer>
 </body>
+
 </html>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
