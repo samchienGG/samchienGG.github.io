@@ -11,7 +11,7 @@
 * 資策會-Web/APP 前端設計工程師養成班
 ## 技能清單
 * 設計
-  * 使用 photoshop、illustrator 進行網頁設計
+  * 會使用 photoshop、illustrator ，不會網頁設計
 * 前端
   * 熟悉 `HTML` + `CSS` 完成RWD頁面架構(也會 `Bootstrap` )
   * 使用 `SCSS` 管理網頁樣式
